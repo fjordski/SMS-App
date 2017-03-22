@@ -5,7 +5,7 @@ var msg = document.querySelector('.response');
 
 textField.addEventListener('keyup', function(e) {
   if ((e.keyCode || e.charCode) === 13) send();
-}, false); // when a user presses a Return key
+}, false); 
 
 button.addEventListener('click', send, false);
 
@@ -27,5 +27,5 @@ function send() {;
 
 
 //user types into input fields on index
-//on click, the send() method posts input data via fetch to /
+//on click, the send() method posts input data via fetch to root
 //app.post'/' then receives this information
