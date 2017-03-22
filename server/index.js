@@ -40,7 +40,6 @@ app.post('/', (req, res) => {
         console.log(err);
       } else {
         console.dir(responseData);
-        // Optional: add socket.io -- will explain later
       }
     }
   );
